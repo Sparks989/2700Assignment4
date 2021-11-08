@@ -11,7 +11,7 @@ class Movie {
 
 //add a movie OBJECT to the allMovies array
 let addMovie = (movie) => {
-	allMovies[allMovie.length + 1] = movie;
+	allMovies[allMovies.length + 1] = movie;
 }
 
 //iterate through all elements of allMovies array
