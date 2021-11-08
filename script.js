@@ -26,7 +26,7 @@ let printMovies = () => {
 
 
 //print out to console, only the movies that has a rating higher than rating(argument)
-//print out the total number of matches
+//print out the total number of matches.
 let highRatings = (rating) => {
 	const highMovie = [];
 	for(i = 0; i < allMovies.length; i++){
