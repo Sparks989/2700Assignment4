@@ -1,4 +1,5 @@
-let allMovies = [Movie("Shrek", 4, false)];
+let allMovies = [];
+addMovie(Movie("Shrek", 4, false));
 
 //Define a movie class with parameters title (string), rating (number) and haveWatched (boolean)
 class Movie {
@@ -11,8 +12,8 @@ class Movie {
 
 //add a movie OBJECT to the allMovies array
 let addMovie = (movie) => {
-	if(allMovies.length == 1) {
-		allMovies[1] = movie;
+	if(allMovies.length == 1 || allMovies.length == 0) {
+		allMovies[0] = movie;
 	} else {
 		allMovies[allMovies.length + 1] = movie;
 	}
