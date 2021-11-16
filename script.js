@@ -44,7 +44,7 @@ let changeWatched = (givenTitle) => {
 	let x = 0;
 	for(i = 0; i < allMovies.length; i++){
 		let current = allMovies[i];
-		if(current.title === givenTitle){
+		if(current != null && current.title === givenTitle){
 			x = i;
 		}
 	}
