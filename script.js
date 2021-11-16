@@ -43,7 +43,9 @@ let highRatings = (rating) => {
 let changeWatched = (givenTitle) => {
 	let x = 0;
 	for(i = 0; i < allMovies.length; i++){
-		if(allMovies[i].title === givenTitle){
+		if(allMovies.length == 0) {
+			x =x;
+		} else if(allMovies[i].title === givenTitle){
 			x = i;
 		}
 	}
