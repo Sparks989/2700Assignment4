@@ -30,7 +30,7 @@ let printMovies = () => {
 let highRatings = (rating) => {
 	const highMovie = [];
 	for(i = 0; i < allMovies.length; i++){
-		if(allMovies[i].movie != null) {
+		if(allMovies[i] != null) {
 			if(allMovies[i].rating > 70){
 				highMovie[i] = allMovies[i];
 			}
