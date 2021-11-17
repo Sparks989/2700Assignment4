@@ -48,7 +48,7 @@ let changeWatched = (givenTitle) => {
 			x = i;
 		}
 	}
-	if(current != null) {
+	if(allMovies[i] != null) {
 		allMovies[i].haveWatched != allMovies[i].haveWatched;
 	}
 }
